@@ -1,0 +1,38 @@
+
+/* login */
+.loginform{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login{
+    border: 1px solid ;
+    padding: 100px;
+    text-align: left;
+    box-shadow: 0 0 15px rgba(231, 85, 85, 0.1);
+    margin: 100px;
+    background-color:#f1cdca;
+    justify-content: center;
+    border: rgb(196, 12, 12);
+}
+input[type="text"],
+input[type="password"]{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: #f1cdca;
+    padding: 5px;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    width: 100px;
+    background-color: #7F4E52;
+    color: white;
+}
+.loginform{
+    align-items: center;
+}

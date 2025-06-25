@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import '../heder/header.css'
 
+
 function Header() {
   const [count, setCount] = useState(0)
 
@@ -22,7 +23,7 @@ function Header() {
         
 {/* Navigation Bar
     <div class="nav">
-        <a href="#">Home</a>
+        <a href="">Home</a>
         <a href="#">Course</a>
         <a href="#" style="float: right;">Login</a>
     </div> */}

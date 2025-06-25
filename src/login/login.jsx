@@ -1,8 +1,6 @@
 import { useState } from 'react'
 
-
-
-function Course() {
+function Login() {
   const [count, setCount] = useState(0)
 
   return (
@@ -12,4 +10,4 @@ function Course() {
   )
 }
 
-export default Course
+export default Login

@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 import { useState } from 'react'
 import './index.css'
-import Home from './frontend/home/home';
-import Course from './frontend/course/course';
-import Login from './frontend/login/login';
+import Home from './frontend/user/home/home';
+import Course from './frontend/user/course/course';
+import Login from './frontend/user/login/login';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,8 +20,9 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/course" element={<Course/>}/>
-        <Route path="/login" element={<Login/>}/> 
+        <Route path="/course" element={<Course/>}/> 
+        <Route path="/login" element={<div style={{ float: "right" }}><Login /></div>} />
+
       </Routes>
       
     </Router>

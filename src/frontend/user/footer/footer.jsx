@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer">
            <div className="fcols">
              <div className="fcon">
-                <img src="/img/logo.png" alt="logo" style={{width: "80px"}}/>
+                <img src="/img/logo.png" alt="logo" style={{width: "150px"}}/>
                  <p>Sri Lanka Institute of Advanced Technological Education (SLIATE) <br/> Learning management system</p>
                 </div>
             </div> 
@@ -26,7 +26,7 @@ function Footer() {
                 <div class="fcon" >
                     <p>Contact:</p>
                     <p>Address: 320, T B Jaya Mawatha , Colombo, Sri Lanka</p>
-                    <p>Email:</p>
+                    <p>Email: <a>lms@sliate.ac.lk</a></p>
                     <p>Phone: +94 11 2 123456</p>  
                    </div>
                </div>           

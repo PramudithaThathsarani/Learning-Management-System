@@ -9,7 +9,7 @@ function Login() {
      {/* login form */}
     <div className="loginform">
     <div className="login">
-         <img src="../img/logo3.jpg" alt="Logo" style={{width: "80px", padding: "10px 150px"}}/>
+         <img src="../img/logo3.jpg" alt="Logo" style={{width: "100px",height:'150px', padding: "10px 150px"}}/>
         <h1 style={{textAlign: "center", padding: "10px"}}>Login</h1>
         <form action="#" method="post">
             <label htmlfor="username">Username:</label>

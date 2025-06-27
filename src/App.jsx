@@ -21,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/course" element={<Course/>}/> 
-        <Route path="/login" element={<div style={{ float: "right" }}><Login /></div>} />
+        <Route path="/login" element={<div className="login"><Login /></div>} />
 
       </Routes>
       

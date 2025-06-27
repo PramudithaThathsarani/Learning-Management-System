@@ -7,6 +7,7 @@ function Course() {
 
   return (
     <>
+  
     {/* Main Content */}
      <div className="con">
         <h1>Sri Lanka Institute of Advanced Technological Education <br/>(SLIATE)</h1>

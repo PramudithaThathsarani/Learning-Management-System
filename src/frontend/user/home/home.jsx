@@ -6,6 +6,7 @@ function Home() {
 
   return (
     <>
+      
       {/* Main Content */}
      <div class="con">
         <h1>Sri Lanka Institute of Advanced Technological Education <br/>(SLIATE)</h1>

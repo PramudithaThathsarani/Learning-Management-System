@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './course.css'
+import Hnda from "../coursecat/hnda/hnda";
 
 
 function Course() {
@@ -28,7 +29,7 @@ function Course() {
         </div>
         <div class="course">
             <div class="content">
-                <a href="../coursescat/hnda/hnda.html">
+                <a href={<Hnda/>}>
                 <img src="../img/acc.jpeg" />
                 <p>Higher National Diploma in Accountancy<br/>(HNDA)<br/><br/></p>
                 </a>

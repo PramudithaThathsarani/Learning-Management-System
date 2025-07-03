@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './home.css'
+// import hnda from './../coursecat/hnda/hnda'
 
 function Home() {
   const [count, setCount] = useState(0)
@@ -25,9 +27,9 @@ function Home() {
         </div>
           <div class="course">
             <div class="content">
-                <a href="../coursescat/hnda/hnda.html">
+                <Link to='/coursecat/hnda'>
                 <p>Higher National Diploma in Accountancy<br/>(HNDA)<br/><br/> </p>
-                </a>
+                </Link>
             </div>
         </div>
         <div class="course">

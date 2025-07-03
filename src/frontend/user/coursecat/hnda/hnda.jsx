@@ -1,8 +1,8 @@
-import { useState } from 'react'
+
 import './hnda.css'
 
 function Hnda() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
